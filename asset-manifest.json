@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/prathamesh-thakur/static/css/main.d279ecb9.css",
+    "main.js": "/prathamesh-thakur/static/js/main.16132f71.js",
+    "static/media/boy.png": "/prathamesh-thakur/static/media/boy.b84b4d9bf6f6956f4899.png",
+    "static/media/animated-car.png": "/prathamesh-thakur/static/media/animated-car.3d3d413b4246ecec34d3.png",
+    "static/media/rocketry.png": "/prathamesh-thakur/static/media/rocketry.1f21e104b995c4607f02.png",
+    "static/media/zadakhabar.png": "/prathamesh-thakur/static/media/zadakhabar.d6887a2884ae687101f7.png",
+    "static/media/zadapaisa.png": "/prathamesh-thakur/static/media/zadapaisa.e70114a2483e5926aabf.png",
+    "static/media/weatherApp.png": "/prathamesh-thakur/static/media/weatherApp.d9c666fd59e2cb4fbfdb.png",
+    "static/media/glassesimoji.png": "/prathamesh-thakur/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/dhanvarsha.png": "/prathamesh-thakur/static/media/dhanvarsha.4b9cfe1aa2d06bd71e48.png",
+    "static/media/diquery.png": "/prathamesh-thakur/static/media/diquery.51168c69588b9ceb16a0.png",
+    "static/media/karma.png": "/prathamesh-thakur/static/media/karma.ae79c2afae966d249a94.png",
+    "static/media/skillmine.png": "/prathamesh-thakur/static/media/skillmine.e20c8f4539743bbf84e3.png",
+    "static/media/zobble.png": "/prathamesh-thakur/static/media/zobble.d416f6220042242e9464.png",
+    "static/media/tic-tac-toe.png": "/prathamesh-thakur/static/media/tic-tac-toe.ea02fc68f5757c209e42.png",
+    "static/media/thumbup.png": "/prathamesh-thakur/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/prathamesh-thakur/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/prathamesh-thakur/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/prathamesh-thakur/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/prathamesh-thakur/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/prathamesh-thakur/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/prathamesh-thakur/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/prathamesh-thakur/index.html",
+    "main.d279ecb9.css.map": "/prathamesh-thakur/static/css/main.d279ecb9.css.map",
+    "main.16132f71.js.map": "/prathamesh-thakur/static/js/main.16132f71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d279ecb9.css",
+    "static/js/main.16132f71.js"
+  ]
+}
