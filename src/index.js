@@ -2,8 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+// dark mood 
+import { ThemeProvider } from './Context';
+// dark mood //
+
 ReactDOM.render(
-    <App />,
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>,
   document.getElementById('root')
 );
 
