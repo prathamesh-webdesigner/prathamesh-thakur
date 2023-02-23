@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prathamesh-thakur/static/css/main.d279ecb9.css",
-    "main.js": "/prathamesh-thakur/static/js/main.16132f71.js",
+    "main.css": "/prathamesh-thakur/static/css/main.ad5f979b.css",
+    "main.js": "/prathamesh-thakur/static/js/main.bbf8b269.js",
     "static/media/boy.png": "/prathamesh-thakur/static/media/boy.b84b4d9bf6f6956f4899.png",
     "static/media/animated-car.png": "/prathamesh-thakur/static/media/animated-car.3d3d413b4246ecec34d3.png",
     "static/media/rocketry.png": "/prathamesh-thakur/static/media/rocketry.1f21e104b995c4607f02.png",
@@ -23,11 +23,11 @@
     "static/media/Vector2.png": "/prathamesh-thakur/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/prathamesh-thakur/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/prathamesh-thakur/index.html",
-    "main.d279ecb9.css.map": "/prathamesh-thakur/static/css/main.d279ecb9.css.map",
-    "main.16132f71.js.map": "/prathamesh-thakur/static/js/main.16132f71.js.map"
+    "main.ad5f979b.css.map": "/prathamesh-thakur/static/css/main.ad5f979b.css.map",
+    "main.bbf8b269.js.map": "/prathamesh-thakur/static/js/main.bbf8b269.js.map"
   },
   "entrypoints": [
-    "static/css/main.d279ecb9.css",
-    "static/js/main.16132f71.js"
+    "static/css/main.ad5f979b.css",
+    "static/js/main.bbf8b269.js"
   ]
 }
