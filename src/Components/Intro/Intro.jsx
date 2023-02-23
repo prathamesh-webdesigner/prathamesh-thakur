@@ -40,8 +40,7 @@ function Intro() {
                     <span style={darkMode ? { color: 'white' } : { color: '' }}>Hey! I Am</span>
                     <span>Prathamesh Thakur</span>
                     <span style={darkMode ? { color: 'white' } : { color: '' }}>
-                        Full Stack Developer with high level of experience in web designing
-                        and development, producting the Quality work
+                        I have a passion for creating engaging, user-friendly interfaces that make web applications come to life. I have a strong foundation in HTML, CSS, and JavaScript, and I am always learning new technologies to improve my skills. Using frameworks & libraries like React JS, Bootstrap, jQuery, WordPress, Wix etc. 
                     </span>
                 </div>
                 <Link spy={true} to='Contact' smooth={true}>

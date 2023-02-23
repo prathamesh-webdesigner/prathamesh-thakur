@@ -40,7 +40,7 @@ const Contact = () => {
         <div className="contact-form" id="Contact">
             {/* left side copy and paste from work section */}
             <div className="w-left">
-                <div className="awesome">
+                <div className="awesome c-awesome">
                     {/* darkMode */}
                     <span style={darkMode?{color:'white'}:{color:''}}>Get in Touch</span>
                     <span>Contact me</span>

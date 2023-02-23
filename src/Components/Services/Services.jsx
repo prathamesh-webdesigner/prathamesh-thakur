@@ -51,9 +51,7 @@ const Services = () => {
             <div className="awesome">
                 <span style={darkMode ? { color: 'white' } : { color: '' }}>My Awesome</span>
                 <span>Services</span>
-                <span style={darkMode ? { color: 'white' } : { color: '' }}>Having agreed on the look and feel of a web app with project stakeholders,
-                    <br />
-                 I bring it to life with Front-End & Back-End coding.</span>
+                <span style={darkMode ? { color: 'white' } : { color: '' }}>As a frontend developer, I offer a range of services to help businesses create engaging and user-friendly web experiences. Whether you need a new website or want to improve the performance of an existing one, I have the skills and expertise to help you achieve your goals.</span>
                 <button className='button s-button' onClick={() => setShow(true)}>Download CV</button>
                 {
                     show && <div className="cvDownload">
@@ -88,7 +86,7 @@ const Services = () => {
                 </motion.div>
                 {/* second card  */}
                 <motion.div
-                    initial={{ left: "-11rem", top: "12rem" }}
+                    initial={{ left: "-11rem", top: "14rem" }}
                     whileInView={{ left: "-4rem" }}
                     transition={transition}
                     style={{ left: '-4rem', top: '12rem' }}>

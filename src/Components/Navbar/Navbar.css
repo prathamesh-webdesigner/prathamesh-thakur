@@ -36,6 +36,7 @@
 }
 .n-list>ul>a>li{
     font-weight: bold;
+    transition: all 0.5s;
 }
 
 .n-list>ul>a>li:hover {

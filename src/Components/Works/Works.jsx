@@ -23,41 +23,35 @@ const Works = () => {
         <div className="works">
             {/* left side  */}
             <div className="awesome">
-                <span style={darkMode?{color:'white'}:{color:''}}>Works For All These</span>
+                <span style={darkMode ? { color: 'white' } : { color: '' }}>Works For All These</span>
                 <span>Brands & Clients</span>
-                <span style={darkMode?{color:'white'}:{color:''}}>Lorem ipsum dolor sit, amet consectetur adipisicing
-                    <br />
-                    est nesciunt aspernatur distinctio odio quae? Eius,
-                    <br />
-                    Lorem ipsum dolor sit, amet consectetur adipisicing
-                    <br />
-                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                <span style={darkMode ? { color: 'white' } : { color: '' }}>As a frontend developer, I have had the opportunity to work with some amazing companies that are leading the way in their industries. These companies have challenged me to think creatively, collaborate with talented teams, and develop cutting-edge solutions that meet the needs of their users.
                 </span>
                 <button className='button s-button'>Hire me </button>
                 <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
             </div>
             {/* right side  */}
             <div className="w-right">
-                <motion.div 
-                initial={{rotate:45}}
-                whileInView={{rotate:0}}
-                viewport={{margin:'-40px'}}
-                transition={{duration:3.5, type:'spring'}}
-                className="w-mainCircle">
+                <motion.div
+                    initial={{ rotate: 45 }}
+                    whileInView={{ rotate: 0 }}
+                    viewport={{ margin: '-40px' }}
+                    transition={{ duration: 3.5, type: 'spring' }}
+                    className="w-mainCircle">
                     <div className="w-secCircle">
                         <img src={Karma} alt="" title='Karma Management Pvt Ltd' />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Diquery} alt="" title='Diquery Digital'/>
+                        <img src={Diquery} alt="" title='Diquery Digital' />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Zobble} alt="" title='Zobble Solutions'/>
+                        <img src={Zobble} alt="" title='Zobble Solutions' />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Dfl} alt="" title='Dhanvarsha Finvest'/>
+                        <img src={Dfl} alt="" title='Dhanvarsha Finvest' />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Skillmine} alt="" title='Skillmine Technology Consulting Pvt Ltd'/>
+                        <img src={Skillmine} alt="" title='Skillmine Technology Consulting Pvt Ltd' />
                     </div>
                 </motion.div>
                 {/* background circles  */}
