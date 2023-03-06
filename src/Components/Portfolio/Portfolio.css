@@ -44,7 +44,7 @@
     padding: 10px;
   }
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 768px){
     .grid-container {
       grid-template-columns: auto;
       padding: 0;
@@ -53,6 +53,7 @@
     .portfolio{
       overflow: hidden;
       height: 100%;
+      margin-top: 7rem;
     }
     .portfolio img{
       width: 100%;

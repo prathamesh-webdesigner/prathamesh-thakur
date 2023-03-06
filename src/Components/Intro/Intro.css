@@ -104,13 +104,6 @@
 }
 
 @media screen and (max-width: 480px) {
-    .intro {
-        flex-direction: column;
-        gap: 7rem;
-        height: 64rem;
-        margin-top: 2rem;
-    }
-
     .i-right {
         transform: scale(0.8);
         left: -3rem;
@@ -125,23 +118,43 @@
         top: -7rem !important;
         ;
     }
+
     .i-right>:nth-child(3) {
-        left: 48%;
-        width: 61%;
-        top: 7%;
+        left: 64% !important;
+        width: 68% !important;
+        top: 13% !important;
     }
-    .i-name, .awesome{
+
+    .i-name, .awesome {
         text-align: center;
     }
-    .i-button{
+
+    .i-button {
         margin: 0 auto;
     }
+
     .i-icons {
         margin-top: -1rem;
         justify-content: center;
     }
-    .s-button{
+
+    .s-button {
         margin: 0 auto;
         margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        gap: 7rem;
+        height: 64rem;
+        margin-top: 2rem;
+    }
+
+    .i-right>:nth-child(3) {
+        left: 31%;
+        width: 34%;
+        top: 3rem;
     }
 }
