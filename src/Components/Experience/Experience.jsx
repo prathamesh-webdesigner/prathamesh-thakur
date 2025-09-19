@@ -14,17 +14,17 @@ const Experience = () => {
   return (
     <div className="experience" id='Experience'>
       <div className="achivement">
-        <div className="circle" style={darkMode?{color:'black', border:'5px solid var(--orange)'}:{color:''}}>6+</div>
+        <div className="circle" style={darkMode?{color:'black', border:'5px solid var(--orange)'}:{color:''}}>8+</div>
         <span>Years</span>
         <span>Experience</span>
       </div>
       <div className="achivement">
-        <div className="circle" style={darkMode?{color:'black', border:'5px solid var(--orange)'}:{color:''}}>20+</div>
+        <div className="circle" style={darkMode?{color:'black', border:'5px solid var(--orange)'}:{color:''}}>60+</div>
         <span>Completed</span>
         <span>Projects</span>
       </div>
       <div className="achivement">
-        <div className="circle" style={darkMode?{color:'black', border:'5px solid var(--orange)'}:{color:''}}>5+</div>
+        <div className="circle" style={darkMode?{color:'black', border:'5px solid var(--orange)'}:{color:''}}>6+</div>
         <span>Companies</span>
         <span>Work</span>
       </div>

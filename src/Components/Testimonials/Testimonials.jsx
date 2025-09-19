@@ -2,10 +2,12 @@ import React from 'react'
 import './Testimonials.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from "swiper";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import profilePic1 from "../../img/karma.png";
+import profilePic2 from "../../img/zobble.png";
+import profilePic3 from "../../img/diquery.png";
+import profilePic4 from "../../img/ttlifesciences.png";
+import profilePic5 from "../../img/KreyaHR.webp";
+import profilePic6 from "../../img/skillmine.png";
 
 // slider 
 import "swiper/css";
@@ -28,22 +30,37 @@ const Testimonials = () => {
         {
             img: profilePic1,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima.",
+                "Working with Prathamesh was smooth and professional. He quickly understood our complex requirements and delivered a clean, user-friendly website that perfectly represents our HR and compliance services.",
         },
         {
             img: profilePic2,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "Prathamesh has an excellent eye for design and detail. His work on our e-learning platform was creative, responsive, and technically solid — making the user experience seamless.",
         },
         {
             img: profilePic3,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "We loved how Prathamesh translated our digital marketing ideas into a fast, modern, and interactive website. His ability to combine creativity with technical execution is impressive.",
         },
         {
             img: profilePic4,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "Prathamesh delivered exactly what we needed for our international conference website. It was elegant, professional, and easy for our attendees to navigate — a great asset to our event.",
+        },
+        {
+            img: profilePic2,
+            review:
+                "The website Prathamesh built for us is not only attractive but also optimized for performance. He ensured our recruiter services were showcased clearly, helping us connect better with clients.",
+        },
+        {
+            img: profilePic5,
+            review:
+                "Prathamesh created a highly functional recruitment site for us with smooth navigation and a great design. His work has made job applications much simpler for candidates.",
+        },
+        {
+            img: profilePic6,
+            review:
+                "Prathamesh impressed us with his ability to understand technical requirements and turn them into a polished website. His solutions are modern, scalable, and aligned with our IT consulting services.",
         },
     ];
     return (

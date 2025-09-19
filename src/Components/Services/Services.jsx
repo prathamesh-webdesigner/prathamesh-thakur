@@ -51,7 +51,7 @@ const Services = () => {
             <div className="awesome">
                 <span style={darkMode ? { color: 'white' } : { color: '' }}>My Awesome</span>
                 <span>Services</span>
-                <span style={darkMode ? { color: 'white' } : { color: '' }}>As a frontend developer, I offer a range of services to help businesses create engaging and user-friendly web experiences. Whether you need a new website or want to improve the performance of an existing one, I have the skills and expertise to help you achieve your goals.</span>
+                <span style={darkMode ? { color: 'white' } : { color: '' }}>I provide a range of solutions to help businesses build engaging and user-friendly web experiences. Whether you’re looking for a brand-new website or want to enhance the performance of an existing one, I bring the skills and creativity needed to help you achieve your goals.</span>
                 <button className='button s-button' onClick={() => setShow(true)}>Download CV</button>
                 {
                     show && <div className="cvDownload">
@@ -65,7 +65,7 @@ const Services = () => {
                     </div>
                 }
                 {
-                    sendcv && <span style={{ color: 'green', marginTop:'1rem' }}>Sent CV on your Email. <br /> Please check your Email.</span>
+                    sendcv && <span style={{ color: 'green', marginTop: '1rem' }}>Sent CV on your Email. <br /> Please check your Email.</span>
                 }
 
                 <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
@@ -81,31 +81,31 @@ const Services = () => {
                     <Card
                         emoji={HeartEmoji}
                         heading={'Front-End'}
-                        detail={'Html, Css, JavaScript, Bootstrap, React Js'}
+                        detail={'HTML, CSS, Tailwind, SASS, jQuery, Responsive, JavaScript, Bootstrap, React Js'}
                     />
                 </motion.div>
                 {/* second card  */}
                 <motion.div
-                    initial={{ left: "-11rem", top: "14rem" }}
+                    initial={{ left: "-11rem", top: "16rem" }}
                     whileInView={{ left: "-4rem" }}
                     transition={transition}
                     style={{ left: '-4rem', top: '12rem' }}>
                     <Card
                         emoji={Glasses}
                         heading={'Back-End'}
-                        detail={'Python, Django, Php, phpMyAdmin, MySQL'}
+                        detail={'Python, Django, PHP, phpMyAdmin, MySQL, Database, Wordpress, Server Handeling'}
                     />
                 </motion.div>
                 {/* 3rd card  */}
                 <motion.div
-                    initial={{ top: "19rem", left: "25rem" }}
+                    initial={{ top: "21rem", left: "25rem" }}
                     whileInView={{ left: "12rem" }}
                     transition={transition}
                     style={{ left: '12rem', top: '19rem' }}>
                     <Card
                         emoji={Humble}
                         heading={'Design'}
-                        detail={'Photoshop, CorelDraw, Illustrator, Figma, Adobe xd'}
+                        detail={'Photoshop, Canva, CorelDraw, Illustrator, Figma, Adobe XD'}
                     />
                 </motion.div>
 

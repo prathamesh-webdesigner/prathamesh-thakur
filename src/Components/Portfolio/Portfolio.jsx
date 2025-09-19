@@ -4,9 +4,11 @@ import './Portfolio.css'
 import WeatherApp from "../../img/weatherApp.png";
 import Car from "../../img/animated-car.png";
 import TicTacToe from "../../img/tic-tac-toe.png";
-import Zadakhabr from "../../img/zadakhabar.png";
 import Zadapaisa from "../../img/zadapaisa.png";
 import Rocketry from "../../img/rocketry.png";
+import Ttlifesciences from "../../img/TTLifesciences.webp";
+import ClinicalNetwork from "../../img/Clinical-network-TT.webp";
+import KreyaJobs from "../../img/KreyaHR.webp";
 import 'swiper/css'
 
 // dark mood 
@@ -55,6 +57,30 @@ const Portfolio = () => {
             {/* grid  */}
             <div className="grid-container">
                 <div className="grid-item">
+                    <Portfolioimages
+                        portfolioImage={Ttlifesciences}
+                        foliotitle={'TTlifesciences Main Website'}
+                        foliopost={'Wordpress, Elementor, HTML, CSS, JavaScript'}
+                        linkApp= {'https://ttlifesciences.com/'}
+                    />
+                </div>
+                <div className="grid-item">
+                    <Portfolioimages
+                        portfolioImage={ClinicalNetwork}
+                        foliotitle={'Clinical Network Conference Website'}
+                        foliopost={'Wordpress, Elementor, HTML, CSS, JavaScript'}
+                        linkApp= {'https://medicaldeviceclinicalnetwork.com/'}
+                    />
+                </div>
+                <div className="grid-item">
+                    <Portfolioimages
+                        portfolioImage={KreyaJobs}
+                        foliotitle={'Kreya Recruiter Website'}
+                        foliopost={'PHP, MySQL, HTML, CSS, JavaScript, Bootstrap'}
+                        linkApp= {'https://kreyajobs.com/'}
+                    />
+                </div>
+                <div className="grid-item">
                     
                         <Portfolioimages 
                             portfolioImage={WeatherApp}
@@ -79,20 +105,13 @@ const Portfolio = () => {
                         linkApp={'https://prathamesh-webdesigner.github.io/tic-tac-toe/'}
                     />
                 </div>
-                <div className="grid-item">
-                    <Portfolioimages
-                        portfolioImage={Zadakhabr}
-                        foliotitle={'Zadakhabar Blogging Website'}
-                        foliopost={'Django, MySQL, HTML5, CSS3, JavaScript'}
-                        linkApp= {'https://zadakhabar.com/'}
-                    />
-                </div>
+                
                 <div className="grid-item">
                     <Portfolioimages
                         portfolioImage={Zadapaisa}
                         foliotitle={'Zadapaisa Landing page'}
                         foliopost={'Bootstrap5, HTML5, CSS3, JavaScript, Animations'}
-                        linkApp= {'https://zadapaisa.com/'}
+                        linkApp= {'https://prathamesh-webdesigner.github.io/jadaPaisa/'}
                     />
                 </div>
                 <div className="grid-item">

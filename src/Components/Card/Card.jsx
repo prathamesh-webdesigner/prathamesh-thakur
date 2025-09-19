@@ -18,7 +18,7 @@ const Card = ({ emoji, heading, detail }) => {
       <span style={darkMode ? { color: 'black' } : { color: '' }}>{heading}</span>
       <span style={darkMode ? { color: 'black' } : { color: '' }}>{detail}</span>
       <Link spy={true} smooth={true} to='Contact'>
-        <button className='c-button'>Learn More</button>
+        <button className='c-button'>Enquire</button>
       </Link>
     </div>
   )

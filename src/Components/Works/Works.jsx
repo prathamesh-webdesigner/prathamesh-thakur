@@ -1,7 +1,7 @@
 import React from 'react'
 import './Works.css'
 import Karma from "../../img/karma.png";
-import Diquery from "../../img/diquery.png";
+import Diquery from "../../img/ttlifesciences.png";
 import Zobble from "../../img/zobble.png";
 import Dfl from "../../img/dhanvarsha.png";
 import Skillmine from "../../img/skillmine.png";
@@ -25,7 +25,7 @@ const Works = () => {
             <div className="awesome">
                 <span style={darkMode ? { color: 'white' } : { color: '' }}>Works For All These</span>
                 <span>Brands & Clients</span>
-                <span style={darkMode ? { color: 'white' } : { color: '' }}>As a frontend developer, I have had the opportunity to work with some amazing companies that are leading the way in their industries. These companies have challenged me to think creatively, collaborate with talented teams, and develop cutting-edge solutions that meet the needs of their users.
+                <span style={darkMode ? { color: 'white' } : { color: '' }}>I’ve had the privilege of collaborating with some incredible companies that are driving innovation in their industries. These experiences have inspired me to think creatively, work alongside talented teams, and deliver impactful solutions tailored to the needs of their users.
                 </span>
                 <button className='button s-button'>Hire me </button>
                 <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
@@ -42,7 +42,7 @@ const Works = () => {
                         <img src={Karma} alt="" title='Karma Management Pvt Ltd' />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Diquery} alt="" title='Diquery Digital' />
+                        <img src={Diquery} alt="" title='TT Lifesciences' />
                     </div>
                     <div className="w-secCircle">
                         <img src={Zobble} alt="" title='Zobble Solutions' />
