@@ -40,28 +40,30 @@ function Intro() {
                     <span style={darkMode ? { color: 'white' } : { color: '' }}>Hey! I Am</span>
                     <span>Prathamesh Thakur</span>
                     <span style={darkMode ? { color: 'white' } : { color: '' }}>
-                        I have a passion for creating engaging, user-friendly interfaces that make web applications come to life. I have a strong foundation in HTML, CSS, and JavaScript, and I am always learning new technologies to improve my skills. Using frameworks & libraries like React JS, Bootstrap, jQuery, WordPress, Wix etc. 
+                        I’m passionate about crafting modern, user-friendly interfaces that bring ideas to life on the web. With a solid foundation in HTML, CSS, and JavaScript, I continuously explore new technologies to sharpen my skills. From frameworks and libraries like React.js, Bootstrap, and jQuery to platforms like WordPress and Wix, I build sleek, responsive, and engaging digital experiences.
                     </span>
                 </div>
                 <Link spy={true} to='Contact' smooth={true}>
                     <button className='button i-button'>Hire me</button>
                 </Link>
                 <div className="i-icons">
-                    <img src={Github} alt=""
-                        onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href = 'https://github.com/prathamesh-webdesigner';
-                        }} />
-                    <img src={LinkedIn} alt=""
-                        onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href = 'https://www.linkedin.com/in/prathamesh-thakur-web/'
+                    <img
+                        src={Github}
+                        alt="GitHub"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => {
+                            window.open("https://github.com/prathamesh-webdesigner", "_blank", "noopener,noreferrer");
                         }}
                     />
-                    <img src={Instagram} alt=""
-                        onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href = 'https://www.instagram.com/prathamesh_thakur15/'
+                    <img
+                        src={LinkedIn} alt="LinkedIn"
+                        onClick={() => {
+                            window.open("https://www.linkedin.com/in/prathamesh-thakur-web/", "_blank", "noopener,noreferrer");
+                        }}
+                    />
+                    <img src={Instagram} alt="Instagram"
+                        onClick={() => {
+                            window.open ("https://www.instagram.com/prathamesh_thakur15/", "_blank", "noopener,noreferrer");
                         }}
                     />
                 </div>
